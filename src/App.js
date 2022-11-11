@@ -1,15 +1,8 @@
-import "./App.css";
+import "./App.scss";
+import Home from "./containers/Home.container";
 
-import NavBar from "./component/navbar";
-import Shop from "./component/shop";
-
-function App(props) {
-  return (
-    <div className="App">
-      <NavBar />
-      <Shop />
-    </div>
-  );
+function App() {
+  return <Home />;
 }
 
 export default App;
